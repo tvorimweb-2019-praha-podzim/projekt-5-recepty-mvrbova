@@ -45,10 +45,6 @@ notebook/pc:
     padding: 0;
 }
 
-.doporucujeme {
-    display: block;
-}
-
 .hlavni-recept {
     background-image: url(images/burger.jpg);
     background-repeat: no-repeat;
@@ -58,19 +54,20 @@ notebook/pc:
     margin: 0;
     padding: 10px; 
     border: 1px solid;
-    /*border-color: white;*/
     min-height: 200px;
-    /*max-height: 100%;*/
     font-size: 28px;
     position: relative;
+    opacity: 0.9;
+    z-index: 1;
 }
 
 .sloupec {
     font-size: 18px;
+    opacity: 0.9;
+    z-index: 1;
 }
 
-.recept2 {
-    background-image: url(images/sushi.jpg);
+.recept {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -83,46 +80,20 @@ notebook/pc:
     position: relative;
 }
 
+.recept2 {
+    background-image: url(images/sushi.jpg);
+}
+
 .recept3 {
     background-image: url(images/rajcata.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: white;
-    margin: 0;
-    padding: 10px;    
-    border: 1px solid; 
-    min-height: 90px;
-    font-size: 18px;
-    position: relative;
 }
 
 .recept4 {
     background-image: url(images/kure.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: white;
-    margin: 0;
-    padding: 10px;     
-    border: 1px solid; 
-    min-height: 90px;
-    font-size: 18px;
-    position: relative;
 }
 
 .recept5 {
     background-image: url(images/grilovani.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: white;
-    margin: 0;
-    padding: 10px;   
-    border: 1px solid;   
-    min-height: 90px;
-    font-size: 18px;
-    position: relative;
 }
 
 .recept-kategorie {
@@ -164,22 +135,7 @@ h2 {
         flex: 1 0 calc(100%/3);
     }
 
-    .recept2 {
-        padding: 20px;
-        min-height: 150px;
-    }
-
-    .recept3 {
-        padding: 20px;
-        min-height: 150px;
-    }
-
-    .recept4 {
-        padding: 20px;
-        min-height: 150px;
-    }
-
-    .recept5 {
+    .recept {
         padding: 20px;
         min-height: 150px;
     }
@@ -205,22 +161,7 @@ h2 {
         flex-shrink: 1;
     }    
 
-    .recept2 {
-        padding: 20px;
-        min-height: 200px;
-    }
-
-    .recept3 {
-        padding: 20px;
-        min-height: 200px;
-    }
-
-    .recept4 {
-        padding: 20px;
-        min-height: 200px;
-    }
-
-    .recept5 {
+    .recept {
         padding: 20px;
         min-height: 200px;
     }
